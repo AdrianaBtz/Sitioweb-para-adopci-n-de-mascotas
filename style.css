@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Ajustes para la imagen del Hero */
+  section img {
+    max-height: 380px;
+    object-fit: cover; /* Evita que la imagen se deforme */
+    transition: transform 0.3s;
+  }
+  
+  /* Efecto al pasar el mouse sobre la imagen */
+  section img:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Botones con bordes redondeados */
+  .btn {
+    border-radius: 8px;
+  }
